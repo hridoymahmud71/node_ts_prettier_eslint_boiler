@@ -1,0 +1,25 @@
+{
+  "name": "node_ts_prettier_eslint_boiler",
+  "version": "1.0.0",
+  "description": "boilerplate",
+  "main": "index.js",
+  "author": "Mahmudur Rahman",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon --watch \"*.ts\" --exec \"ts-node\" ./src/index.ts",
+    "eslint:fix": "eslint --fix"
+  }
+}
