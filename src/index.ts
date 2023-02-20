@@ -8,3 +8,5 @@ const result: number = addition(number1, number2);
 
 console.log("The result is %d", result);
 console.log("hello");
+
+const something = "ss";
